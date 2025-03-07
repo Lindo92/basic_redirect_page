@@ -5,12 +5,26 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Site Under Maintenance</title>
   <link rel="stylesheet" href="styles.css">
+  <style>
+    @font-face {
+      font-family: 'CustomFont';
+      src: url('btcx-public-eot.eot') format('embedded-opentype');
+    }
+    body {
+      font-family: 'CustomFont', sans-serif;
+    }
+    .logo {
+      width: 100px;
+      height: auto;
+    }
+  </style>
 </head>
 <body>
   <div class="container">
+    <img src="btcx.png" alt="Logo" class="logo">
     <h1>We’ll Be Back Soon!</h1>
     <p>Sorry for the mess—we’re rebuilding and will be back shortly.</p>
-    <div class="hidden-token">::CLOUDFLARE_ERROR_500S_BOX::</div>
+    <div style="display: none;">::CLOUDFLARE_ERROR_500S_BOX::</div>
   </div>
 </body>
 </html>
